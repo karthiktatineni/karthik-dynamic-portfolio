@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Instagram, Github, Linkedin, Mail } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
@@ -75,50 +75,6 @@ export const Navbar = () => {
                   </Button>
                 </motion.div>
               ))}
-              
-              {/* Social Icons */}
-              <div className="flex items-center space-x-1 ml-4 border-l border-border pl-4">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                  className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <a href="mailto:your.email@example.com" aria-label="Email">
-                    <Mail className="h-5 w-5" />
-                  </a>
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                  className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <Github className="h-5 w-5" />
-                  </a>
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                  className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </a>
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                  className="text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                    <Instagram className="h-5 w-5" />
-                  </a>
-                </Button>
-              </div>
             </div>
 
             {/* Mobile menu button */}
