@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail, Instagram } from "lucide-react";
 
 export const Hero = () => {
   const scrollToProjects = () => {
@@ -46,6 +46,9 @@ export const Hero = () => {
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <Instagram className="w-6 h-6" />
             </a>
           </div>
         </motion.div>
