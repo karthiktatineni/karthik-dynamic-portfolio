@@ -16,9 +16,6 @@ const Index = () => {
       <Projects />
       <Skills />
       <Contact />
-      <footer className="py-8 text-center text-muted-foreground border-t border-border">
-        <p>&copy; 2024 Tatineni Karthik Sai. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
