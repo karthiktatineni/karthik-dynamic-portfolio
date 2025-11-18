@@ -20,10 +20,10 @@ export const Hero = () => {
             I'm <span className="text-primary">Tatineni Karthik Sai</span>
           </h1>
           <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            VLSI, Embedded & IoT Enthusiast
+            VLSI, Embedded & IoT
           </h3>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            A passionate ECE engineer with a knack for VLSI, Embedded Systems, automation, and intelligent systems.
+            A passionate ECE engineer with a knack for VLSI, Embedded Systems, automation, IOT.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-12">
