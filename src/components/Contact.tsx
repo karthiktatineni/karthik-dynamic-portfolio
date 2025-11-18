@@ -86,7 +86,7 @@ export const Contact = () => {
                     <Mail className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/karthiktatineni"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -94,7 +94,7 @@ export const Contact = () => {
                     <Github className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://linkedin.com/karthiktatineni"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -102,7 +102,7 @@ export const Contact = () => {
                     <Linkedin className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/_karthik._.14/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-all duration-300 hover:scale-110"
