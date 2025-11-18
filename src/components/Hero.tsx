@@ -47,7 +47,7 @@ export const Hero = () => {
             <a href="https://github.com/karthiktatineni" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/karthiktatineni" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/karthik-tatineni/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             
