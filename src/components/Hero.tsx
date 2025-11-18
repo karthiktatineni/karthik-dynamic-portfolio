@@ -38,7 +38,7 @@ export const Hero = () => {
           </div>
 
           <div className="flex gap-6 justify-center">
-            <a href="https://www.instagram.com/_karthik._.14/ target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.instagram.com/_karthik._.14/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Instagram className="w-6 h-6" />
             </a>
             <a href="mailto:karthiktatineni34@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
