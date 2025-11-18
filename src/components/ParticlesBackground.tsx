@@ -49,14 +49,14 @@ export const ParticlesBackground = () => {
       },
       particles: {
         color: {
-          value: "#00bcd4",
+          value: "#5FC4DB",
         },
         links: {
-          color: "#00bcd4",
-          distance: 150,
+          color: "#5FC4DB",
+          distance: 140,
           enable: true,
-          opacity: 0.4,
-          width: 1,
+          opacity: 0.3,
+          width: 1.5,
         },
         move: {
           direction: "none",
@@ -64,24 +64,29 @@ export const ParticlesBackground = () => {
           outModes: {
             default: "bounce",
           },
-          random: false,
-          speed: 1.5,
+          random: true,
+          speed: 1,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 100,
+          value: 80,
         },
         opacity: {
-          value: 0.5,
+          value: 0.6,
+          animation: {
+            enable: true,
+            speed: 0.5,
+            minimumValue: 0.3,
+          },
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 1, max: 4 },
         },
       },
       detectRetina: true,
